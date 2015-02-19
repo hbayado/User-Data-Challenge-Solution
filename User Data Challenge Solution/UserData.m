@@ -50,7 +50,9 @@
 //    [user4 setObject:[UIImage imageNamed:@"person4.jpg"] forKey:@"profilePicture"];
 
     
-    NSArray *usersArray = [[NSArray alloc] initWithObjects:user1, user2, user3, user4, nil];
+//    NSArray *usersArray = [[NSArray alloc] initWithObjects:user1, user2, user3, user4, nil];
+    
+    NSArray *usersArray = @[user1, user2, user3, user4];
     
     return usersArray;
 }
