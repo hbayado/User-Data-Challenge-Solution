@@ -10,4 +10,6 @@
 
 @interface UserData : NSObject
 
++ (NSArray *) users;
+
 @end

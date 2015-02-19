@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UserData.h"
 
 @interface ViewController : UIViewController
 
